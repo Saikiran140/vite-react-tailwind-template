@@ -1,0 +1,103 @@
+export const conversations = [
+    {
+        "messageId": "90a3b0d6-efd5-4f70-aa5a-e7ad661afe1d",
+        "conversationId": "4379f052-ae9a-4d4b-b369-fec4148a931a",
+        "createdAt": "2024-06-24T04:54:06.360Z",
+        "endpoint": "google",
+        "error": false,
+        "isCreatedByUser": true,
+        "isEdited": false,
+        "model": null,
+        "parentMessageId": "00000000-0000-0000-0000-000000000000",
+        "sender": "User",
+        "text": "HI",
+        "unfinished": false,
+        "updatedAt": "2024-06-24T04:55:11.028Z",
+        "children": []
+    },
+    {
+        "messageId": "8da03691-b8e3-4dce-aa88-b56b95cc7892",
+        "conversationId": "4379f052-ae9a-4d4b-b369-fec4148a931a",
+        "createdAt": "2024-06-24T04:55:10.712Z",
+        "error": false,
+        "isCreatedByUser": false,
+        "isEdited": false,
+        "model": "gemini-pro",
+        "parentMessageId": "90a3b0d6-efd5-4f70-aa5a-e7ad661afe1d",
+        "sender": "Sivi",
+        "text": "Hello there! How may I assist you today?",
+        "unfinished": false,
+        "updatedAt": "2024-06-24T04:55:10.996Z",
+        "endpoint": "google",
+        "children": []
+    },
+    {
+        "messageId": "0f48ab47-9177-4410-a122-91662bbfeef3",
+        "conversationId": "4379f052-ae9a-4d4b-b369-fec4148a931a",
+        "createdAt": "2024-06-24T05:06:53.188Z",
+        "endpoint": "google",
+        "error": false,
+        "isCreatedByUser": true,
+        "isEdited": false,
+        "model": null,
+        "parentMessageId": "8da03691-b8e3-4dce-aa88-b56b95cc7892",
+        "sender": "User",
+        "text": "show the image",
+        "unfinished": false,
+        "updatedAt": "2024-06-24T05:06:58.479Z",
+        "files": [
+            {
+                "_id": "6678fee344fe58994917ddae",
+                "file_id": "7d5a6f3a-8aaa-4968-8a47-14ef4f7b08cb",
+                "__v": 0,
+                "bytes": 6496,
+                "context": "message_attachment",
+                "createdAt": "2024-06-24T05:06:43.203Z",
+                "filename": "arrow.png",
+                "filepath": "https://e7.pngegg.com/pngimages/81/570/png-clipart-profile-logo-computer-icons-user-user-blue-heroes-thumbnail.png",
+                "height": 162,
+                "object": "file",
+                "source": "local",
+                "type": "image/png",
+                "updatedAt": "2024-06-24T05:06:53.153Z",
+                "usage": 1,
+                "user": "6678fa8839110b66a4d58893",
+                "width": 173
+            }
+        ],
+        "children": []
+    },
+    {
+        "messageId": "1fab6cba-bf44-4341-9db6-ae5659f6aa73",
+        "conversationId": "4379f052-ae9a-4d4b-b369-fec4148a931a",
+        "createdAt": "2024-06-24T05:06:58.319Z",
+        "endpoint": "google",
+        "error": false,
+        "isCreatedByUser": false,
+        "isEdited": false,
+        "model": "gemini-pro-vision",
+        "parentMessageId": "0f48ab47-9177-4410-a122-91662bbfeef3",
+        "sender": "Sivi",
+        "text": "bad",
+        "unfinished": false,
+        "updatedAt": "2024-06-24T05:06:58.446Z",
+        "children": [
+            {
+                "messageId": "caa7db7d-643f-44ed-87a5-6a8a673cb289",
+                "conversationId": "4379f052-ae9a-4d4b-b369-fec4148a931a",
+                "createdAt": "2024-06-24T05:50:09.829Z",
+                "endpoint": "google",
+                "error": false,
+                "isCreatedByUser": true,
+                "isEdited": false,
+                "model": null,
+                "parentMessageId": "1fab6cba-bf44-4341-9db6-ae5659f6aa73",
+                "sender": "User",
+                "text": "hi",
+                "unfinished": false,
+                "updatedAt": "2024-06-24T05:50:09.829Z",
+                "children": []
+            }
+        ]
+    }
+]
